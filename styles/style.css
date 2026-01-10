@@ -1,0 +1,14 @@
+.regular {
+  font-family: "Roboto", serif;
+  font-weight: 400;
+}
+
+.medium {
+  font-family: "Roboto", serif;
+  font-weight: 500;
+}
+
+.bold {
+  font-family: "Roboto", serif;
+  font-weight: 700;
+}
