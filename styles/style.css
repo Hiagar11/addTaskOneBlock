@@ -1,0 +1,109 @@
+.container {
+  padding: 0 420px;
+}
+
+.text-big {
+}
+
+.plan__title {
+  margin: 137px 0 65px 0;
+  width: 100%;
+  text-align: center;
+}
+
+.plan__title-text {
+  font-size: 38px;
+  font-family: "ROboto", serif;
+  font-weight: 700;
+}
+
+.plan__title-subtext {
+  font-size: 22px;
+  font-weight: 400;
+  display: inline-block;
+  padding: 13px 9px 0 0;
+}
+
+.plan__list {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 6px;
+}
+
+.plan__item {
+  min-height: 600px;
+}
+
+.card__link {
+  display: block;
+  height: 100%;
+  text-decoration: none;
+  color: #fff;
+}
+
+.card {
+  background-color: slategray;
+  display: flex;
+  flex-direction: column;
+  padding: 35px;
+  height: 100%;
+}
+
+.card__img {
+}
+
+.card__title {
+  margin-top: 167px;
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.card__text {
+  line-height: 1.33;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 26px;
+}
+
+.card__price {
+  font-size: 67px;
+  font-weight: 700;
+  letter-spacing: -0.1px;
+  padding: 0 0 0 11px;
+  position: relative;
+  margin-bottom: 8px;
+}
+
+.card__price::before {
+  position: absolute;
+  top: -44px;
+  left: 0;
+  content: url(/images/$.svg);
+}
+
+.card__list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+
+.card__item {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0 0 0 20px;
+}
+
+.card__btn {
+  background-color: transparent;
+  border-radius: 3px;
+  border: 1px solid #fff;
+  align-self: flex-end;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 13px 51px 11px 52px;
+  white-space: nowrap;
+  margin-top: auto;
+}
