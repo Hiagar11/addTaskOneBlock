@@ -1,12 +1,9 @@
 .container {
-  padding: 0 420px;
-}
-
-.text-big {
+  padding: 0 420px 190px 420px;
 }
 
 .plan__title {
-  margin: 137px 0 65px 0;
+  margin: 135px 0 67px 0;
   width: 100%;
   text-align: center;
 }
@@ -46,7 +43,7 @@
   background-color: slategray;
   display: flex;
   flex-direction: column;
-  padding: 35px;
+  padding: 33px;
   height: 100%;
 }
 
@@ -98,12 +95,18 @@
 .card__btn {
   background-color: transparent;
   border-radius: 3px;
-  border: 1px solid #fff;
+  border: 2px solid #fff;
+  padding: 10px 52px;
   align-self: flex-end;
   color: #fff;
   font-size: 14px;
   font-weight: 400;
-  padding: 13px 51px 11px 52px;
+  display: inline;
   white-space: nowrap;
   margin-top: auto;
+}
+
+.card__btn-accent-color {
+  color: transparent;
+  background-color: #fff;
 }
