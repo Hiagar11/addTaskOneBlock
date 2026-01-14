@@ -2,6 +2,25 @@
   padding: 0 420px 190px 420px;
 }
 
+.popular {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 14px;
+  font-weight: 500;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 8px 0;
+}
+
+.popular::before {
+  content: url(/images/Path.svg);
+  display: inline-block;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
 .personal {
   background: linear-gradient(180deg, #fdc624 0%, #e6c434 100%);
 }
@@ -76,6 +95,7 @@
 }
 
 .card {
+  position: relative;
   display: flex;
   flex-direction: column;
   padding: 33px;
@@ -140,13 +160,11 @@
   font-size: 14px;
   font-weight: 500;
   background-color: transparent;
-  border: none;
+  border: 2px solid #fff;
   color: #fff;
-  outline: 2px solid #fff;
-  outline-offset: -3px;
   border-radius: 3px;
   white-space: nowrap;
-  padding: 13px 52px;
+  padding: 10px 50px;
 }
 
 .accent-btn {
@@ -177,5 +195,4 @@
   content: "";
   background: #fff;
   z-index: 1;
-  border-radius: 3px;
 }
