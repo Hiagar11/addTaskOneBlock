@@ -2,6 +2,14 @@
   padding: 0 420px 190px 420px;
 }
 
+.personal {
+  background: linear-gradient(180deg, #6bdfff 0%, #3dacfc 100%);
+}
+
+.business {
+  background: linear-gradient(180deg, #ff9c6d 0%, #ff6d3d 100%);
+}
+
 .plan__title {
   margin: 135px 0 67px 0;
   width: 100%;
@@ -10,7 +18,7 @@
 
 .plan__title-text {
   font-size: 38px;
-  font-family: "ROboto", serif;
+  font-family: "Roboto", serif;
   font-weight: 700;
 }
 
@@ -40,15 +48,21 @@
 }
 
 .card {
-  background: linear-gradient(180deg, #6bdfff 0%, #3dacfc 100%);
   display: flex;
   flex-direction: column;
   padding: 33px;
   height: 100%;
 }
 
+.card__img {
+  width: 100%;
+  height: 168px;
+  background-repeat: no-repeat;
+  background-position: -1px 39px;
+  background-size: contain;
+}
+
 .card__title {
-  margin-top: 167px;
   font-size: 21px;
   font-weight: 500;
 }
