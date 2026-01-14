@@ -40,14 +40,11 @@
 }
 
 .card {
-  background-color: slategray;
+  background: linear-gradient(180deg, #6bdfff 0%, #3dacfc 100%);
   display: flex;
   flex-direction: column;
   padding: 33px;
   height: 100%;
-}
-
-.card__img {
 }
 
 .card__title {
@@ -83,7 +80,7 @@
   list-style-type: none;
   display: flex;
   flex-direction: column;
-  gap: 17px;
+  gap: 16px;
 }
 
 .card__item {
@@ -92,21 +89,19 @@
   padding: 0 0 0 20px;
 }
 
-.card__btn {
-  background-color: transparent;
-  border-radius: 3px;
-  border: 2px solid #fff;
-  padding: 10px 52px;
-  align-self: flex-end;
-  color: #fff;
-  font-size: 14px;
-  font-weight: 400;
-  display: inline;
-  white-space: nowrap;
+.btn-wrap {
   margin-top: auto;
+  display: inline-flex;
 }
 
-.card__btn-accent-color {
-  color: transparent;
-  background-color: #fff;
+.card__btn {
+  font-size: 14px;
+  font-weight: 500;
+  background-color: transparent;
+  border: none;
+  outline: 2px solid #fff;
+  outline-offset: -3px;
+  border-radius: 3px;
+  white-space: nowrap;
+  padding: 13px 52px;
 }
