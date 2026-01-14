@@ -3,11 +3,39 @@
 }
 
 .personal {
-  background: linear-gradient(180deg, #6bdfff 0%, #3dacfc 100%);
+  background: linear-gradient(180deg, #fdc624 0%, #e6c434 100%);
+}
+
+.personal .card__img img {
+  margin-top: 25px;
+  margin-right: 4px;
 }
 
 .business {
-  background: linear-gradient(180deg, #ff9c6d 0%, #ff6d3d 100%);
+  background: linear-gradient(180deg, #55dce7 0%, #3dcad4 100%);
+}
+
+.business .card__img img {
+  width: 85%;
+  margin-top: 12px;
+}
+
+.developer {
+  background: linear-gradient(180deg, #6bdfff 0%, #3dacfc 100%);
+}
+
+.developer .card__img img {
+  width: 90%;
+}
+
+.agency {
+  background: linear-gradient(180deg, #bfcedc 0%, #939fb3 100%);
+}
+
+.agency .card__img img {
+  width: 85%;
+  margin-top: 18px;
+  margin-right: 9px;
 }
 
 .plan__title {
@@ -57,9 +85,14 @@
 .card__img {
   width: 100%;
   height: 168px;
-  background-repeat: no-repeat;
-  background-position: -1px 39px;
-  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card__img img {
+  object-fit: contain;
+  display: block;
 }
 
 .card__title {
