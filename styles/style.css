@@ -139,7 +139,7 @@
   position: absolute;
   top: -44px;
   left: 2px;
-  content: url(/images/$.svg);
+  content: url(/images/dollar.svg);
 }
 
 .card__list {
