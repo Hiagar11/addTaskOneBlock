@@ -63,8 +63,7 @@
 .card__price {
   font-size: 67px;
   font-weight: 700;
-  letter-spacing: -0.1px;
-  padding: 0 0 0 11px;
+  padding: 0 0 0 14px;
   position: relative;
   margin-bottom: 8px;
 }
@@ -72,7 +71,7 @@
 .card__price::before {
   position: absolute;
   top: -44px;
-  left: 0;
+  left: 2px;
   content: url(/images/$.svg);
 }
 
