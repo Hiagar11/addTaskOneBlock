@@ -4,4 +4,6 @@
 ###### like H6 title maximum "######"
 
 ### Черта
-Alt-H1 "Alt-H1"
+Alt-H1 "Alt-H1" 
+Alt-H1
+------
